@@ -1,0 +1,32 @@
+From fdd482d33f829e3736fe73ae6525d86159027e8d Mon Sep 17 00:00:00 2001
+From: Aaron T. Myers <atm@cloudera.com>
+Date: Fri, 15 Nov 2013 17:10:54 -0800
+Subject: [PATCH 1517/1518] CLOUDERA-BUILD: Update cloudera-jets3t pom for 4.5.0 branch.
+
+---
+ hadoop-common-project/cloudera-jets3t/pom.xml |    4 ++--
+ 1 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/hadoop-common-project/cloudera-jets3t/pom.xml b/hadoop-common-project/cloudera-jets3t/pom.xml
+index a56f783..c083d2c 100644
+--- a/hadoop-common-project/cloudera-jets3t/pom.xml
++++ b/hadoop-common-project/cloudera-jets3t/pom.xml
+@@ -17,13 +17,13 @@
+   <parent>
+     <groupId>org.apache.hadoop</groupId>
+     <artifactId>hadoop-project</artifactId>
+-    <version>2.0.0-cdh4.6.0-SNAPSHOT</version>
++    <version>2.0.0-cdh4.5.0</version>
+     <relativePath>../../hadoop-project</relativePath>
+   </parent>
+ 
+   <groupId>org.apache.hadoop</groupId>
+   <artifactId>cloudera-jets3t</artifactId>
+-  <version>2.0.0-cdh4.6.0-SNAPSHOT</version>
++  <version>2.0.0-cdh4.5.0</version>
+   <packaging>jar</packaging>
+ 
+   <name>Jets3t Cloudera Dependencies</name>
+-- 
+1.7.0.4
+
